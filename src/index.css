@@ -1,0 +1,47 @@
+.app {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.content {
+  display: flex;
+  gap: 40px;
+}
+
+.plants-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.plant-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.plant-image {
+  font-size: 48px;
+}
+
+.cart {
+  min-width: 250px;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.cart-item button {
+  width: 30px;
+  height: 30px;
+}
